@@ -5,19 +5,19 @@ Una aplicación construida con una arquitectura robusta y prácticas de diseño 
 Se utilizó una arquitectura de capas para separar las responsabilidades y mejorar la modularidad del sistema. Las capas incluyen:
 - Capa de Presentación (Controllers, DTOs)
 - Capa de Aplicación (Services)
-- Capa de Dominio (Entidades, Interfaces, Excepciones)
-- Capa de Infraestructura (Acceso a Datos, Configuraciones)
+- Capa de Dominio (Entities, Interfaces)
+- Capa de Infraestructura (Repositories, Configurations)
+
+<div align="center">
+    <img src="https://github.com/Ausubel/pokemon-api/assets/97548645/7b9a3890-c662-4e56-8b04-fe99413ad75b" alt="Screenshot Project">
+</div>
 
 Se usaron interfaces para desacoplar las capas y permitir la inyección de dependencias. Ademas del uso de patrones de diseño como Singleton (para el uso del contexto de la base de datos) y Repository (para el acceso a datos).
 
 ### Normalizacion de la Base de Datos
 Se utilizó una base de datos relacional para almacenar los datos de los Pokémon. La base de datos se normalizó para evitar la redundancia de datos y mejorar la integridad de los mismos. Se crearon las siguientes tablas:
 
-- pokemon
-- pokemonType
-- pokemonDiet
-- pokemonSize
-- pokemonRarity
+![Screenshot 2024-02-29 095659](https://github.com/Ausubel/pokemon-api/assets/97548645/90cd9db2-9981-4da1-9841-53fd8ad58d24)
 
 ## Requisitos Previos
 
@@ -42,4 +42,6 @@ Se utilizó una base de datos relacional para almacenar los datos de los Pokémo
 
 ## Instrucciones de Uso
 
-Después de iniciar el proyecto, puedes explorar y probar la API utilizando Swagger. Accede a [https://localhost:7289/swagger/index.html](http://localhost:7289/swagger/index.html) para obtener una interfaz interactiva con la lista de endpoints disponibles.
+Después de iniciar el proyecto, puedes explorar y probar la API importando el archivo JSON de Postman o usando Swagger. Accede a [https://localhost:7289/swagger/index.html](http://localhost:7289/swagger/index.html) para obtener una interfaz interactiva con la lista de endpoints disponibles.
+
+![Swagger](https://github.com/Ausubel/pokemon-api/assets/97548645/09e34a70-4460-4a49-928a-56915d310fbd)
