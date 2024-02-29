@@ -45,3 +45,15 @@ Se utilizó una base de datos relacional para almacenar los datos de los Pokémo
 Después de iniciar el proyecto, puedes explorar y probar la API importando el archivo JSON de Postman o usando Swagger. Accede a [https://localhost:7289/swagger/index.html](http://localhost:7289/swagger/index.html) para obtener una interfaz interactiva con la lista de endpoints disponibles.
 
 ![Swagger](https://github.com/Ausubel/pokemon-api/assets/97548645/09e34a70-4460-4a49-928a-56915d310fbd)
+
+## Publicación con Azure
+
+La API ha sido implementada en Azure utilizando el servicio App Services, una plataforma que simplifica la implementación y administración de aplicaciones en la nube. Además de la integración con una instancia de base de datos en SQL Server también alojada en Azure para una gestión mas simplificada.
+
+<div align="center">
+    <img src="https://github.com/Ausubel/pokemon-api/assets/97548645/8ff1b323-1866-40c7-ae60-c82155c73cad" alt="Screenshot Project">
+</div>
+
+Puedes probarlo en el siguiente Workspace de Postman [https://www.postman.com/maintenance-architect-77770106/workspace/public-workspace](https://www.postman.com/maintenance-architect-77770106/workspace/public-workspace/folder/29518795-8b21d663-8338-4660-826d-719745694e74)
+
+
