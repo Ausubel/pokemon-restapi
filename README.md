@@ -8,6 +8,8 @@ Se utilizó una arquitectura de capas para separar las responsabilidades y mejor
 - Capa de Dominio (Entidades, Interfaces, Excepciones)
 - Capa de Infraestructura (Acceso a Datos, Configuraciones)
 
+![Screenshot 2024-02-29 095836](https://github.com/Ausubel/pokemon-api/assets/97548645/7b9a3890-c662-4e56-8b04-fe99413ad75b)
+
 Se usaron interfaces para desacoplar las capas y permitir la inyección de dependencias. Ademas del uso de patrones de diseño como Singleton (para el uso del contexto de la base de datos) y Repository (para el acceso a datos).
 
 ### Normalizacion de la Base de Datos
