@@ -5,7 +5,7 @@ using PokemonAPI.Services;
 
 namespace PokemonAPI.Controllers
 {
-    [Route("api/rarity")]
+    [Route("api/rarities")]
     [ApiController]
     public class PokemonRarityController(PokemonRarityService pokemonRarityService) : ControllerBase
     {

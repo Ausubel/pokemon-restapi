@@ -5,7 +5,7 @@ using PokemonAPI.Services;
 
 namespace PokemonAPI.Controllers
 {
-    [Route("api/diet")]
+    [Route("api/diets")]
     [ApiController]
     public class PokemonDietController(PokemonDietService pokemonDietService) : ControllerBase
     {

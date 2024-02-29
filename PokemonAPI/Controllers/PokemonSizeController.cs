@@ -5,7 +5,7 @@ using PokemonAPI.Services;
 
 namespace PokemonAPI.Controllers
 {
-    [Route("api/size")]
+    [Route("api/sizes")]
     [ApiController]
     public class PokemonSizeController(PokemonSizeService pokemonSizeService) : ControllerBase
     {

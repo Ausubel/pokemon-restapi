@@ -5,7 +5,7 @@ using PokemonAPI.Services;
 
 namespace PokemonAPI.Controllers
 {
-    [Route("api/type")]
+    [Route("api/types")]
     [ApiController]
     public class PokemonTypeController(PokemonTypeService pokemonTypeService): ControllerBase
     {
