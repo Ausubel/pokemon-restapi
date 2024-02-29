@@ -19,6 +19,8 @@ Se utilizó una base de datos relacional para almacenar los datos de los Pokémo
 - pokemonSize
 - pokemonRarity
 
+![Screenshot 2024-02-29 095659](https://github.com/Ausubel/pokemon-api/assets/97548645/90cd9db2-9981-4da1-9841-53fd8ad58d24)
+
 ## Requisitos Previos
 
 - .NET Core SDK 8
@@ -43,3 +45,4 @@ Se utilizó una base de datos relacional para almacenar los datos de los Pokémo
 ## Instrucciones de Uso
 
 Después de iniciar el proyecto, puedes explorar y probar la API utilizando Swagger. Accede a [https://localhost:7289/swagger/index.html](http://localhost:7289/swagger/index.html) para obtener una interfaz interactiva con la lista de endpoints disponibles.
+![Swagger](https://github.com/Ausubel/pokemon-api/assets/97548645/09e34a70-4460-4a49-928a-56915d310fbd)
