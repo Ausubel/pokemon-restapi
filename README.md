@@ -1,7 +1,7 @@
 # Proyecto Pokémon API
 
 Una aplicación construida con una arquitectura robusta y prácticas de diseño modernas para proporcionar una solución eficiente y escalable. Aquí hay algunos aspectos clave de la implementación:
-### Arquitectura de Layers
+### Arquitectura en Layers
 Se utilizó una arquitectura de capas para separar las responsabilidades y mejorar la modularidad del sistema. Las capas incluyen:
 - Capa de Presentación (Controllers, DTOs)
 - Capa de Aplicación (Services)
